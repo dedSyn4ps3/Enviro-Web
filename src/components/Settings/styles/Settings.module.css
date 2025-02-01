@@ -1,0 +1,171 @@
+.settingsContainer {
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: -60px;
+  }
+  
+  .formBody {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .settingsContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .headerContainer {
+    display: flex;
+    gap: 19px;
+  }
+  
+  .profileImage {
+    aspect-ratio: 0.97;
+    object-fit: contain;
+    width: 85px;
+    border-radius: 50%;
+  }
+  
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  
+  .headerTitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .headerSubtitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .secondaryTitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 36px;
+  }
+  
+  .urlSection {
+    font-size: 16px;
+    font-weight: 400;
+    align-self: end;
+    margin-top: 147px;
+  }
+  
+  .urlImage {
+    aspect-ratio: 2.06;
+    object-fit: contain;
+    width: 101px;
+    border-radius: 8px;
+    align-self: start;
+    margin-top: 31px;
+  }
+  
+  .urlContainer {
+    display: flex;
+    margin-top: 23px;
+    gap: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+  }
+  
+  .sideDashUrl {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 15px 22px 31px;
+    flex-grow: 1;
+    width: fit-content;
+  }
+  
+  .apiUrl {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 15px 22px 24px;
+    flex-grow: 1;
+    width: fit-content;
+  }
+  
+  .colorPickerLabel {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 27px;
+  }
+  
+  .colorPickerContainer {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    margin-top: 28px;
+    width: 640px;
+    max-width: 100%;
+    gap: 20px;
+    padding: 16px 22px;
+    justify-content: space-between;
+  }
+  
+  .colorPickerDefault {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .colorPickerIcon {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    width: 25px;
+  }
+  
+  .saveButton {
+    border-radius: 8px;
+    align-self: center;
+    width: 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .settingsContainer {
+      max-width: 100%;
+      padding: 100px 20px;
+    }
+    
+    .topSection {
+      max-width: 100%;
+    }
+    
+    .urlSection {
+      margin-top: 40px;
+    }
+    
+    .urlContainer {
+      max-width: 100%;
+    }
+    
+    .sideDashUrl,
+    .apiUrl {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    
+    .colorPickerContainer {
+      padding: 0 20px;
+    }
+    
+    .saveButton {
+      margin: 40px 0 10px;
+      padding: 11px 20px;
+    }
+  }
+
+  .clearButton {
+    align-self: center;
+  }

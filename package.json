@@ -1,0 +1,49 @@
+{
+  "name": "enviroplus-dashboard-v2",
+  "private": true,
+  "version": "2.4.2",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "compile-sass": "sass src/assets/scss/dashboard.scss src/assets/css/dashboard.css",
+    "minify-sass": "sass src/assets/scss/dashboard.scss src/assets/css/dashboard.min.css --style compressed"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.8",
+    "@mui/x-charts": "^7.22.2",
+    "@mui/x-data-grid": "^7.22.2",
+    "@mui/x-tree-view": "^7.22.1",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.13",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "mdb-react-ui-kit": "^9.0.0",
+    "perfect-scrollbar": "^1.5.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "reactstrap": "^9.2.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "sass": "^1.80.3",
+    "sass-embedded": "^1.79.5",
+    "vite": "^5.4.8"
+  },
+  "proxy": "http://localhost:8080"
+}

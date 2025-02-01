@@ -1,0 +1,31 @@
+.admonition {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admonition-note {
+    background-color: #e7f3fe;
+    border-left: 4px solid #2196f3;
+  }
+
+  .admonition-success {
+    background-color: #e7f3fe;
+    border-left: 4px solid #409541;
+  }
+  
+  .admonition-warning {
+    background-color: #fff3cd;
+    border-left: 4px solid #ff9800;
+  }
+  
+  .admonition-icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .admonition-content {
+    flex: 1;
+  }
